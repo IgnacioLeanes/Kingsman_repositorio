@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/Logo/suit-and-tie-outfit.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Kingsman-Contacto</title>
+</head>
+<body>
+    <header>
+        <img src="../Assets/Logo/suit-and-tie-outfit.png" alt="Kingsman-Logo" width="150" class="logo">
+    <nav><a href="../index.html">Inicio</a>
+    <a href="../paginas/accesorios.html" target="_blank">Accesorios</a>
+    <a href="../paginas/trajes.html" target="_blank">Trajes</a>
+    <a href="../paginas/promociones.html" target="_blank">Promociones</a>
+    </nav>
+    </header>
+    <main>
+    <h3>Decinos sobre vos!</h3>
+
+
+    <form action="procesar.php" method="post">
+        <p>
+        <label for="name">Ingrese su Nombre:</label>
+        <input type="text" name="nombre" placeholder="Ingrese su nombre">
+        </p>
+        <p>
+        <label for="apellido">Ingrese su apellido</label>
+        <input type="text" name="Apeliido" placeholder="Ingrese su Apellido">
+        </p>
+        <label for="mail">Ingrese su gmail</label>
+        <input type="email" name="mail" placeholder="Ingrese su gmail"> <img src="../Assets/Logo/email.png" alt="gmail" width="20px">
+        <p><label for="number">Ingrese su numero de telefono</label>
+            <input type="number" name="number" placeholder="Ingrese su numero de telefono"> <img src="../Assets/Logo/telefono-inteligente.png" alt="telefono" width="20px">
+        </p>
+        <p><label for="direccion">Ingrese su direccion</label>
+            <input type="text" name="direccion" placeholder="Ingrese su direccion"> <img src="../Assets/Logo/casa.png" alt="casa" width="20px">
+        </p>
+        <h3>Dejanos tu comentario:</h3>
+        <p>
+            <textarea name="mensaje" cols="20" rows="10"></textarea>
+        </p>
+        <h3>Que tipo de traje te gusta mas:</h3>
+
+        <label for="traje">Traje Azul Marino</label>
+        <input type="radio" name="traje" value="traje azul marino">
+        <label for="traje">Traje Gris</label>
+        <input type="radio" name="traje" value="traje Gris">
+        <label for="traje">Traje de Gala</label>
+        <input type="radio" name="traje" value="traje de Gala">
+        <label for="traje">Traje de Verano</label>
+        <input type="radio" name="traje" value="traje de Verano">
+        <p>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar formulario</button>
+        </p>
+        </form>
+    </main>
+    
+
+
+
+
+    <footer>
+        <p>Desarrollado por Ignacio Leañes</p>
+    </footer>
+</body>
+</html>
